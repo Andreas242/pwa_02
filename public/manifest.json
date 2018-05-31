@@ -1,0 +1,25 @@
+{
+    "name": "Sopra Steria PWA - part 1",
+    "short_name": "PWA",
+    "icons": [
+      {
+        "src": "/src/images/icons/sopra_steria_512x512.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/src/images/icons/sopra_steria_512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html",
+    "scope": ".",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#fff",
+    "theme_color": "#3f51b5",
+    "description": "PWA part one for Sopra Steria workshop",
+    "dir": "ltr",
+    "lang": "en-US"
+  }
