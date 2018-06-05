@@ -4,13 +4,8 @@ To see if you have access to a SW you can check for 'serviceWorker' in navigator
 
 */
 
-if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js')
-    .then(function() {
-      console.log('sw registered');
-    });
-}
 
+// Chrome installation
 const installButton = document.querySelector("#install");
 installButton.style.display = "none";
 
@@ -47,3 +42,19 @@ installButton.addEventListener('click', (e) => {
         deferredPrompt = null;
     });
 });
+
+// IOS
+
+// Detects if device is on iOS 
+const isIos = () => {
+    console.log('test IOS');
+    const userAgent = window.navigator.userAgent.toLowerCase();
+    return /iphone|ipad|ipod/.test( userAgent );
+  }
+  // Detects if device is in standalone mode
+  const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
+  
+  // Checks if should display install popup notification:
+  if (isIos() && !isInStandaloneMode()) {
+    this.setState({ showInstallMessage: true });
+  }

@@ -1,5 +1,5 @@
 body { 
-    font-size: 10px;
+    font-size: 20px;
     font-family: 'Roboto', Arial, monospace;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -77,12 +77,13 @@ img {
 
 
 .cta p {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .cta p a {
     text-decoration: none;
     font-weight: 800;
+    font-size: 2rem;
 }
 
 .cta p a:hover {
@@ -103,7 +104,7 @@ img {
     padding: 0;
     margin: 10px 0;
     list-style: none;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
 }
 
 .menu a {
@@ -167,6 +168,7 @@ img {
 @media (max-width: 1000px) {
     .menu {
         order: -1;
+        font-size: 2.4rem;
     }
     [aria-controls="menu-list"] {
         display: block;
@@ -183,11 +185,16 @@ img {
         max-height: 500px;
         transform: rotateX(0);
     }
+    .gallery {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    }
     
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .top {
         grid-template-areas: 
         "hero hero"
@@ -206,9 +213,15 @@ img {
     .cta1 {
         margin-right: 10px;
     }
+    .gallery {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    }
+    
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .top {
         grid-template-areas: 
         "hero"
