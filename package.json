@@ -1,7 +1,7 @@
 {
-  "name": "pwa-complete-guide",
+  "name": "PWA3",
   "version": "1.0.0",
-  "description": "Sopra Steria PWA1",
+  "description": "PWA Startup",
   "main": "index.js",
   "scripts": {
     "start": "http-server -c-1"
