@@ -6,10 +6,15 @@ PWA
 Tools of the trade:
 Git – to get the code
 Chrome – dev tools (F12) – lighthouse – application – console
+
 >	“Audit” for Lighthouse
+
 >	“Application” for serviceworker / cache / manifest
+
 >	Make sure clear-cache is set on “network”
+
 >	Make sure “Update on reload” is checked on “Application -> service worker”  
+
 Ngrok – to actually use your mobile, or use an emulator, or host on firebase
 >npm install –g ngrok
 
