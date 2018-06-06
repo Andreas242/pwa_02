@@ -34,8 +34,11 @@ IOS
 
 Get started
 >git clone https://github.com/Andreas242/pwa_02
+
 >cd pwa_02
+
 >npm install
+
 >npm start
 
 - later in another window
