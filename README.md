@@ -39,8 +39,8 @@ Make the website at … to a PWA ie, reach close to 100 on PWA in Lighthouse.
 
 I’ve added some code that is constantly in flux to be able to ”Add 2 Home Screen”. This will probably change somewhat again next month. I’m not sure how this works on IOS so, please let me know!
 
-Task 2)
-- Cache all static resources so that we still see things when we are offline
+Task 2 - 
+Cache all static resources so that we still see things when we are offline
 
 -	Cache API information is available at the same place as the service worker information.
 -	Clearly show that we are not connected if that is the case.
