@@ -6,20 +6,20 @@ PWA
 Tools of the trade:
 Git – to get the code
 Chrome – dev tools (F12) – lighthouse – application – console
--	“Audit” for Lighthouse
--	“Application” for serviceworker / cache / manifest
--	Make sure clear-cache is set on “network”
--	Make sure “Update on reload” is checked on “Application -> service worker”  
+>	“Audit” for Lighthouse
+>	“Application” for serviceworker / cache / manifest
+>	Make sure clear-cache is set on “network”
+>	Make sure “Update on reload” is checked on “Application -> service worker”  
 Ngrok – to actually use your mobile, or use an emulator, or host on firebase
 >npm install –g ngrok
 
 Resources
-https://whatwebcando.today/
-https://developers.google.com/web/fundamentals/web-app-manifest/  - Web manifest
-https://developers.google.com/web/fundamentals/app-install-banners/ - Install 2 Home Screen
-https://developers.google.com/web/fundamentals/primers/service-workers/ - Service Workers
+>https://whatwebcando.today/
+>https://developers.google.com/web/fundamentals/web-app-manifest/  - Web manifest
+>https://developers.google.com/web/fundamentals/app-install-banners/ - Install 2 Home Screen
+>https://developers.google.com/web/fundamentals/primers/service-workers/ - Service Workers
 IOS
-https://www.netguru.co/codestories/few-tips-that-will-make-your-pwa-on-ios-feel-like-native 
+>https://www.netguru.co/codestories/few-tips-that-will-make-your-pwa-on-ios-feel-like-native 
 
 Get started
 >git clone https://github.com/Andreas242/pwa_02
@@ -34,8 +34,7 @@ ngrok http 127.0.0.1:xxxx
 What to do!
 Task 1)
 Make the website at … to a PWA ie, reach close to 100 on PWA in Lighthouse.
-
--Either just open Lighthouse and get cracking or use the links on the webpage to get more information.
+- Either just open Lighthouse and get cracking or use the links on the webpage to get more information.
 
 I’ve added some code that is constantly in flux to be able to ”Add 2 Home Screen”. This will probably change somewhat again next month. I’m not sure how this works on IOS so, please let me know!
 
