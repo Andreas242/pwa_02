@@ -46,9 +46,12 @@ Get started
 ngrok http 127.0.0.1:xxxx
 
 What to do!
+
 Task 1)
+
 Make the website at … to a PWA ie, reach close to 100 on PWA in Lighthouse.
 - Either just open Lighthouse and get cracking or use the links on the webpage to get more information.
+You need to fix some things to make it look ok in a mobile web browser.
 
 I’ve added some code that is constantly in flux to be able to ”Add 2 Home Screen”. This will probably change somewhat again next month. I’m not sure how this works on IOS so, please let me know!
 
