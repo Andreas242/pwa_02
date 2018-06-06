@@ -65,9 +65,12 @@ Lets go mobile!
 -	Make sure to present alternatives for those who do not have access to that functionality on their device. 
 
 Task 4)
-- Try to set up a PWA with React or Vue – this works well with task 5 as well 
+- Get a perfect score on Lighthouse
 
 Task 5)
+- Try to set up a PWA with React or Vue – this works well with task 5 as well 
+
+Task 6)
 -	Use firebase to set up a database
 -	Allow the user to add content, ie make a TODO or something a bit more interesting
 -	Cache dynamic content with the help of indexDB
