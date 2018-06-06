@@ -4,15 +4,8 @@ To see if you have access to a SW you can check for 'serviceWorker' in navigator
 
 */
 
-if("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/sw.js")
-    .then(
-        console.log('SW registered')
-    );
-}
 
-
-// Chrome installation
+// Chrome installation to home screen
 const installButton = document.querySelector("#install");
 installButton.style.display = "none";
 

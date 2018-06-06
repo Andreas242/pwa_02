@@ -5,18 +5,5 @@
    })
 
    you need to *install* the service worker, *activate* it and probably see that you can intercept *fetch*-requests
+   the *activate* also may need 'return self.clients.claim();' at the end.
 */
-
-self.addEventListener('install', (event) => {
-    console.log('[SW] installed', event);
-});
-
-self.addEventListener('activate', (event) => {
-    console.log('[SW] activated', event);
-    return self.clients.claim();
-});
-
-self.addEventListener('fetch', (event) => {
-    console.log('[SW] fetching', event);
-      event.respondWith(fetch(event.request));
-})
