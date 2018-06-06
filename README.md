@@ -4,7 +4,9 @@ Sopra Steria - jump off point - nothing added
 PWA
 
 Tools of the trade:
+
 >Git – to get the code
+
 >Chrome – dev tools (F12) – lighthouse – application – console
 
 >	Chrome - “Audit” for Lighthouse
