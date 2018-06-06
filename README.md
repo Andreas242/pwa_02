@@ -7,7 +7,7 @@ Tools of the trade:
 
 >Git – to get the code
 
->Chrome – dev tools (F12) – lighthouse – application – console
+Chrome – dev tools (F12) – lighthouse – application – console
 
 >	Chrome - “Audit” for Lighthouse
 
