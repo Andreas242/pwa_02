@@ -15,9 +15,13 @@ Ngrok – to actually use your mobile, or use an emulator, or host on firebase
 
 Resources
 >https://whatwebcando.today/
+
 >https://developers.google.com/web/fundamentals/web-app-manifest/  - Web manifest
+
 >https://developers.google.com/web/fundamentals/app-install-banners/ - Install 2 Home Screen
+
 >https://developers.google.com/web/fundamentals/primers/service-workers/ - Service Workers
+
 IOS
 >https://www.netguru.co/codestories/few-tips-that-will-make-your-pwa-on-ios-feel-like-native 
 
